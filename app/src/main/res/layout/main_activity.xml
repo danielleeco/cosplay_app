@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <View
+        android:id="@+id/rect_2"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-24dp"
+        android:background="#FFA451"
+        />
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rect_2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Start Cosplaying!"
+        android:textSize="60px"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="What is your name?"
+        android:textSize="80px"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="   Tony"
+        android:background="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/name"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_start"
+        android:gravity="fill_horizontal"
+        android:text="Start"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+</RelativeLayout>
