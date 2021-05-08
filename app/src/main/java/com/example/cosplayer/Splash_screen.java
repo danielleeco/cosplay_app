@@ -8,7 +8,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 public class Splash_screen extends Activity {
-    private final int SPLASH_DISPLAY_LENGTH = 5000; //отображается 5 сек
+    private final int SPLASH_DISPLAY_LENGTH = 1500; //отображается 5 сек
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

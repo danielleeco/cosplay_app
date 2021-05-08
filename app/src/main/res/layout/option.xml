@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#E5E5E5">
+
+    <TextView
+        android:id="@+id/whoare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Who are you from ?"
+        android:textSize="38sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whoare"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="Load picture of yourself!" />
+
+    <ImageView
+        android:id="@+id/loadpic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/whoare"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rect_self"
+        android:layout_marginTop="110dp" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="263dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/loadpic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/apply_btn"
+        />
+
+</RelativeLayout>

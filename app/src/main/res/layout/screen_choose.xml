@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/almostWhite">
 
 <RelativeLayout
@@ -13,7 +13,6 @@
         android:id="@+id/quest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Tony, what kind of cinematic you would like to cosplay?"
         android:layout_marginTop="124dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
@@ -44,26 +43,26 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:background="@drawable/series"
-            android:layout_marginStart="7dp" />
+            android:layout_marginStart="20dp" />
 
         <ImageButton
-            android:id="@+id/movie"
+            android:id="@+id/movies"
             android:layout_below="@+id/rec"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:background="@drawable/movies"
-            android:layout_marginStart="150dp" />
+            android:layout_marginLeft="220dp" />
 
         <ImageButton
-            android:id="@+id/animated"
+            android:id="@+id/anim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:background="@drawable/animated"
             android:layout_below="@+id/series"
-            android:layout_marginTop="-100dp"
-            android:layout_marginStart="7dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp" />
 
         <ImageButton
             android:id="@+id/games"
@@ -72,8 +71,8 @@
             android:adjustViewBounds="true"
             android:background="@drawable/games"
             android:layout_below="@+id/series"
-            android:layout_marginTop="-100dp"
-            android:layout_marginStart="150dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp" />
 
 
 
